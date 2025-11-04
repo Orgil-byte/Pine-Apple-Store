@@ -1,3 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  width: 1920px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+  gap: 12px;
+}
+header {
+  width: 390px;
+  height: 121px;
+}
+.navigation {
+  width: 390px;
+  height: 48px;
+  filter: blur(20);
+}
+.overlay {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  width: 390px;
+  background-color: rgba(245, 245, 247, 0.8);
+  position: relative;
+}
+.vector {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url("./apple-logo.png");
+  width: 16px;
+  height: 19px;
+}
+.image2 {
+  background-image: url("./search-bar.png");
+  width: 16px;
+  height: 16px;
+}
+.image3 {
+  background-image: url("./shop-bar.png");
+  width: 15.12px;
+  height: 17.6px;
+}
+.sticks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+  left: 342px;
+  width: 48px;
+}
+.stick {
+  width: 14px;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  border-width: 1.2px;
+  border-radius: 9999px;
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +9,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: #ffffff;
   gap: 12px;
 }
+/* Nav - Global*/
 header {
   width: 390px;
   height: 121px;
@@ -33,6 +34,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.image-full {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .image1 {
   background-image: url("./apple-logo.png");
@@ -49,13 +57,21 @@ header {
   width: 15.12px;
   height: 17.6px;
 }
+
+.margin-2 {
+  position: absolute;
+  left: 246px;
+}
+.margin-3 {
+  position: absolute;
+  left: 294px;
+}
 .sticks {
   display: flex;
   flex-direction: column;
   gap: 5px;
   position: absolute;
   left: 342px;
-  width: 48px;
 }
 .stick {
   width: 14px;
@@ -63,4 +79,92 @@ header {
   border-style: solid;
   border-width: 1.2px;
   border-radius: 9999px;
+}
+/* Container*/
+.nav-container {
+  width: 390px;
+  height: 73px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 24px;
+  padding-left: 24px;
+  text-align: center;
+}
+.nav-text {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  color: #1d1d1f;
+}
+/*Section*/
+.section {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  height: 1546px;
+  position: relative;
+}
+.background {
+  width: 390px;
+  height: 500px;
+}
+.back1 {
+  background-color: #000000;
+}
+.back2 {
+  position: absolute;
+  background-color: #f5f5f7;
+  top: 512px;
+}
+.back3 {
+  position: absolute;
+  background-color: #f5f5f7;
+  top: 1024px;
+}
+.back-image1 {
+  background-image: url("./16pro.png");
+  position: relative;
+}
+.back-image2 {
+  background-image: url("./16.png");
+}
+.back-image3 {
+  background-image: url("./pad.png");
+}
+.back-image {
+  width: 390px;
+  height: 500px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.frame-24-1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 241px;
+  height: 114px;
+  gap: 16px;
+  top: 350px;
+  left: 75px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 241px;
+  height: 62px;
+  gap: 4px;
+}
+.pro16 {
+  display: flex;
+  height: 30px;
+  color: #f5f5f7;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }

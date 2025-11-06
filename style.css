@@ -4,37 +4,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+.html {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 body {
-  height: 5524px;
-  width: 390px;
+  height: fit-content;
+  width: 100%;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #121313;
+  justify-content: center;
   gap: 12px;
 }
 /* Nav - Global*/
 header {
-  width: 390px;
+  width: 100%;
   height: 121px;
 }
 .navigation {
-  width: 390px;
+  width: 100%;
   height: 48px;
   filter: blur(20);
 }
 .overlay {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 48px;
-  width: 390px;
+  width: 100%;
   background-color: rgba(245, 245, 247, 0.8);
   position: relative;
+}
+.nav-bars {
+  display: flex;
 }
 .vector {
   background-repeat: no-repeat;
@@ -64,20 +69,10 @@ header {
   height: 17.6px;
 }
 
-.margin-2 {
-  position: absolute;
-  left: 246px;
-}
-.margin-3 {
-  position: absolute;
-  left: 294px;
-}
 .sticks {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  position: absolute;
-  left: 342px;
 }
 .stick {
   width: 14px;
@@ -88,7 +83,7 @@ header {
 }
 /* Container*/
 .nav-container {
-  width: 390px;
+  width: 100%;
   height: 73px;
   background-color: #ffffff;
   display: flex;
@@ -109,16 +104,17 @@ header {
 .section {
   display: flex;
   flex-direction: column;
-  width: 390px;
+  width: 100%;
   height: 1546px;
   position: relative;
 }
 .background {
-  width: 390px;
+  width: 100%;
   height: 500px;
 }
 .back1 {
   background-color: #000000;
+  width: 100%;
 }
 .back2 {
   position: absolute;
@@ -140,10 +136,12 @@ header {
   background-image: url("./pad.png");
 }
 .back-image {
-  width: 390px;
+  display: flex;
+  width: 100%;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
 }
 
 .frame-24-1 {
@@ -154,7 +152,6 @@ header {
   height: 114px;
   gap: 16px;
   top: 350px;
-  left: 75px;
 }
 .text {
   display: flex;
@@ -243,7 +240,6 @@ header {
   opacity: 1;
   gap: 16px;
   top: 36px;
-  left: 75px;
 }
 .buy-2 {
   border-color: #ffffff;
@@ -256,7 +252,6 @@ header {
 .gradient-hello {
   position: absolute;
   top: 446px;
-  left: 112px;
   font-family: Inter;
   font-weight: 500;
   font-style: Medium;
@@ -312,17 +307,19 @@ header {
 footer {
   display: flex;
   flex-direction: column;
-  width: 390;
+  width: 100%;
   height: 3833;
   opacity: 1;
   gap: 12px;
 }
 .footer-back {
-  width: 390;
+  width: 100%;
   height: 500;
   opacity: 1;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 .footer-back1 {
   background-image: url("./background-1.png");
@@ -357,7 +354,6 @@ footer {
   opacity: 1;
   gap: 20px;
   top: 299px;
-  left: 75px;
 }
 .footer-text {
   width: 241;
@@ -398,7 +394,6 @@ footer {
   opacity: 1;
   gap: 16px;
   top: 46px;
-  left: 77px;
 }
 .classic {
   font-family: Inter;
@@ -476,7 +471,6 @@ footer {
   opacity: 1;
   gap: 16px;
   top: 42px;
-  left: 67px;
 }
 .frame-25 {
   display: flex;
@@ -544,7 +538,6 @@ footer {
   height: 152;
   opacity: 1;
   top: 301px;
-  left: 38px;
 }
 .frame-25-deals {
   width: 314;
@@ -602,7 +595,6 @@ footer {
   opacity: 1;
   gap: 16px;
   top: 51px;
-  left: 53px;
   align-items: center;
 }
 .frame-21-trade {
@@ -670,4 +662,31 @@ footer {
   letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
+}
+.list {
+  display: flex;
+  width: 100%;
+  height: 533;
+  opacity: 1;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 2379;
+  height: 495;
+  opacity: 1;
+  left: -233px;
+  gap: 16px;
+}
+.link {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 274;
+  height: 495;
+  opacity: 1;
+}
+.link1 {
+  background-image: url("./Link1.png");
 }

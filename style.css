@@ -95,6 +95,7 @@ header {
 }
 .nav-text {
   font-size: 14px;
+  width: 330px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 20px;
@@ -127,18 +128,19 @@ header {
   top: 1024px;
 }
 .back-image1 {
-  background-image: url("./16pro.png");
+  background-image: url("./16-pro.jpg");
 }
 .back-image2 {
-  background-image: url("./16.png");
+  background-image: url("./16.jpg");
 }
 .back-image3 {
-  background-image: url("./pad.png");
+  background-image: url("./pad.jpg");
 }
 .back-image {
   display: flex;
   width: 100%;
   height: 500px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -316,33 +318,34 @@ footer {
   width: 100%;
   height: 500;
   opacity: 1;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: center;
 }
 .footer-back1 {
-  background-image: url("./background-1.png");
+  background-image: url("./background-1.jpg");
   position: relative;
 }
 .footer-back2 {
-  background-image: url("./watch.png");
+  background-image: url("./watch.jpg");
   position: relative;
 }
 .footer-back3 {
-  background-image: url("./macbook-air.png");
+  background-image: url("./macbook-air.jpg");
   position: relative;
 }
 .footer-back4 {
-  background-image: url("./emoji.png");
+  background-image: url("./emoji.jpg");
   position: relative;
 }
 .footer-back5 {
-  background-image: url("./4phone.png");
+  background-image: url("./4phone.jpg");
   position: relative;
 }
 .footer-back6 {
-  background-image: url("./trade-in.png");
+  background-image: url("./trade-in.jpg");
   position: relative;
 }
 .frame-24-foot1 {
@@ -669,16 +672,17 @@ footer {
   height: 533;
   opacity: 1;
   position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
 }
 .frame-44 {
   display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 2379;
-  height: 495;
+  width: fit-content;
   opacity: 1;
-  left: -233px;
   gap: 16px;
+  flex-wrap: nowrap;
 }
 .link {
   background-repeat: no-repeat;
@@ -686,7 +690,50 @@ footer {
   width: 274;
   height: 495;
   opacity: 1;
+  flex-shrink: 0;
+  scroll-snap-align: center;
 }
 .link1 {
   background-image: url("./Link1.png");
+}
+.link2 {
+  background-image: url("./Link2.png");
+}
+.link3 {
+  background-image: url("./Link3.png");
+}
+.link4 {
+  background-image: url("./Link4.png");
+}
+.link5 {
+  background-image: url("./Link5.png");
+}
+.link6 {
+  background-image: url("./Link6.png");
+}
+.link7 {
+  background-image: url("./Link7.png");
+}
+.link8 {
+  background-image: url("./Link8.png");
+}
+@media (min-width: 768px) {
+  .back-image1 {
+    background-image: url("./768pro.jpg");
+  }
+  .frame-24-1 {
+    top: 58px;
+  }
+  .back-image2 {
+    background-image: url("./768-16.jpg");
+  }
+  .frame-24-2 {
+    top: 58px;
+  }
+  .back-image3 {
+    background-image: url("./768pad.jpg");
+  }
+  .nav-text {
+    width: 444px;
+  }
 }

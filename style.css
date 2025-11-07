@@ -10,7 +10,7 @@
   width: 100%;
 }
 body {
-  height: fit-content;
+  height: auto;
   width: 100%;
   background-size: cover;
   display: flex;
@@ -37,6 +37,18 @@ header {
   width: 100%;
   background-color: rgba(245, 245, 247, 0.8);
   position: relative;
+}
+.top-text {
+  display: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 60px;
+  letter-spacing: -0.28px;
+  text-align: center;
+  vertical-align: middle;
+  gap: 24px;
 }
 .nav-bars {
   display: flex;
@@ -81,6 +93,18 @@ header {
   border-width: 1.2px;
   border-radius: 9999px;
 }
+@media (min-width: 1920px) {
+  .overlay {
+    justify-content: center;
+    gap: 24px;
+  }
+  .sticks {
+    display: none;
+  }
+  .top-text {
+    display: block;
+  }
+}
 /* Container*/
 .nav-container {
   width: 100%;
@@ -89,9 +113,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 24px;
-  padding-left: 24px;
   text-align: center;
+  gap: 24px;
 }
 .nav-text {
   font-size: 14px;
@@ -101,17 +124,41 @@ header {
   line-height: 20px;
   color: #1d1d1f;
 }
+@media (min-width: 768px) {
+  .nav-container {
+    height: 48px;
+  }
+  .nav-text {
+    width: 444px;
+    display: flex;
+    gap: 10px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 108px;
+    gap: 12px;
+  }
+}
+@media (min-width: 1920px) {
+  header {
+    height: 96px;
+  }
+  .nav-text {
+    width: 680px;
+  }
+}
 /*Section*/
 .section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 1546px;
+  height: auto;
   position: relative;
 }
 .background {
   width: 100%;
-  height: 500px;
+  height: auto;
 }
 .back1 {
   background-color: #000000;
@@ -144,13 +191,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  align-content: center;
 }
 
 .frame-24-1 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 241px;
   height: 114px;
   gap: 16px;
   top: 350px;
@@ -158,7 +205,6 @@ header {
 .text {
   display: flex;
   flex-direction: column;
-  width: 241px;
   height: 62px;
   gap: 4px;
 }
@@ -187,7 +233,6 @@ header {
 .button {
   display: flex;
   justify-content: center;
-  width: 241px;
   height: 36;
   opacity: 1;
   gap: 12px;
@@ -237,7 +282,6 @@ header {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 241;
   height: 114;
   opacity: 1;
   gap: 16px;
@@ -304,436 +348,20 @@ header {
   text-align: center;
   vertical-align: middle;
 }
-
-/*Frame-27*/
-footer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 3833;
-  opacity: 1;
-  gap: 12px;
-}
-.footer-back {
-  width: 100%;
-  height: 500;
-  opacity: 1;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
-.footer-back1 {
-  background-image: url("./background-1.jpg");
-  position: relative;
-}
-.footer-back2 {
-  background-image: url("./watch.jpg");
-  position: relative;
-}
-.footer-back3 {
-  background-image: url("./macbook-air.jpg");
-  position: relative;
-}
-.footer-back4 {
-  background-image: url("./emoji.jpg");
-  position: relative;
-}
-.footer-back5 {
-  background-image: url("./4phone.jpg");
-  position: relative;
-}
-.footer-back6 {
-  background-image: url("./trade-in.jpg");
-  position: relative;
-}
-.frame-24-foot1 {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 241;
-  height: 147;
-  opacity: 1;
-  gap: 20px;
-  top: 299px;
-}
-.footer-text {
-  width: 241;
-  height: 91;
-  opacity: 1;
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-}
-.airpod {
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 30px;
-  line-height: 100%;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: bottom;
-  color: #f5f5f7;
-}
-.iconic {
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: bottom;
-  color: #f5f5f7;
-}
-.frame-6 {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  width: 235;
-  height: 135;
-  opacity: 1;
-  gap: 16px;
-  top: 46px;
-}
-.classic {
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-}
-.frame-21 {
-  display: flex;
-  flex-direction: column;
-  width: 235;
-  height: 83;
-  opacity: 1;
-  gap: 4px;
-}
-.frame-5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 235;
-  height: 54;
-  opacity: 1;
-  gap: 4px;
-}
-.frame-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 152;
-  height: 34;
-  opacity: 1;
-  gap: 4px;
-}
-.logo {
-  background-image: url("./apple-logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 22;
-  height: 27;
-  opacity: 1;
-}
-.series-10 {
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 13px;
-  line-height: 100%;
-  letter-spacing: 2px;
-  text-align: center;
-  vertical-align: middle;
-}
-.watch {
-  font-family: Inter;
-  font-weight: 700;
-  margin-top: 3px;
-  font-style: Bold;
-  font-size: 28px;
-  line-height: 100%;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.frame-26 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  width: 257;
-  height: 115;
-  opacity: 1;
-  gap: 16px;
-  top: 42px;
-}
-.frame-25 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 257;
-  height: 63;
-  opacity: 1;
-  gap: 4px;
-}
-.mac-air {
-  color: #1d1d1f;
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 30px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.mac-air2 {
-  color: #1d1d1f;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.frame-26-business {
-  justify-content: center;
-  height: 168px;
-  top: 47px;
-}
-.frame-25-business {
-  height: 116px;
-}
-.business {
-  color: #1d1d1f;
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 30px;
-  line-height: 36px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.business2 {
-  color: #1d1d1f;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.frame-26-deals {
-  width: 314px;
-  height: 152;
-  opacity: 1;
-  top: 301px;
-}
-.frame-25-deals {
-  width: 314;
-  height: 100;
-  opacity: 1;
-}
-.deals {
-  display: flex;
-  color: #1d1d1f;
-  font-family: Inter;
-  justify-content: center;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 29px;
-  line-height: 36px;
-  letter-spacing: 0px;
-  vertical-align: middle;
-}
-.deals2 {
-  color: #1d1d1f;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  padding-left: 35;
-  padding-right: 35;
-  text-align: center;
-  vertical-align: middle;
-}
-.find-deal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #0071e3;
-  color: #ffffff;
-  width: 126;
-  height: 36;
-  opacity: 1;
-  gap: 10px;
-  border-radius: 999px;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.frame-6-trade {
-  width: 285;
-  height: 130;
-  opacity: 1;
-  gap: 16px;
-  top: 51px;
-  align-items: center;
-}
-.frame-21-trade {
-  width: 285;
-  height: 78;
-  opacity: 1;
-  gap: 4px;
-}
-.frame-5-trade {
-  display: flex;
-  justify-content: center;
-  width: 285;
-  height: 34;
-  opacity: 1;
-  gap: 4px;
-}
-.logo-trade {
-  background-image: url("./apple-logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 22px;
-  height: 27px;
-}
-.trade1 {
-  font-family: Inter;
-  font-weight: 700;
-  font-style: Bold;
-  font-size: 28px;
-  line-height: 100%;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 3px;
-}
-.trade2 {
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.button3 {
-  background-color: #0071e3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 1;
-  border-radius: 999px;
-  gap: 10px;
-  width: 150px;
-  height: 36;
-  opacity: 1;
-  gap: 12px;
-}
-.get-estimate {
-  color: #ffffff;
-  font-family: Inter;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: center;
-  vertical-align: middle;
-}
-.list {
-  display: flex;
-  width: 100%;
-  height: 533;
-  opacity: 1;
-  position: relative;
-  overflow-x: auto;
-  overflow-y: hidden;
-  scroll-snap-type: x mandatory;
-  scroll-snap-stop: always;
-}
-.frame-44 {
-  display: flex;
-  width: fit-content;
-  opacity: 1;
-  gap: 16px;
-  flex-wrap: nowrap;
-}
-.link {
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 274;
-  height: 495;
-  opacity: 1;
-  flex-shrink: 0;
-  scroll-snap-align: center;
-}
-.link1 {
-  background-image: url("./Link1.png");
-}
-.link2 {
-  background-image: url("./Link2.png");
-}
-.link3 {
-  background-image: url("./Link3.png");
-}
-.link4 {
-  background-image: url("./Link4.png");
-}
-.link5 {
-  background-image: url("./Link5.png");
-}
-.link6 {
-  background-image: url("./Link6.png");
-}
-.link7 {
-  background-image: url("./Link7.png");
-}
-.link8 {
-  background-image: url("./Link8.png");
-}
 @media (min-width: 768px) {
+  .section {
+    gap: 12px;
+  }
+  .back-image {
+    height: 650px;
+  }
   .back-image1 {
     background-image: url("./768pro.jpg");
-  }
-  .frame-24-1 {
-    top: 58px;
   }
   .back-image2 {
     background-image: url("./768-16.jpg");
   }
-  .frame-24-2 {
-    top: 58px;
-  }
   .back-image3 {
     background-image: url("./768pad.jpg");
-  }
-  .nav-text {
-    width: 444px;
   }
 }

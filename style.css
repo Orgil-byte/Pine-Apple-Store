@@ -154,7 +154,7 @@ header {
   flex-direction: column;
   width: 100%;
   height: auto;
-  position: relative;
+  gap: 12px;
 }
 .background {
   width: 100%;
@@ -162,26 +162,27 @@ header {
 }
 .back1 {
   background-color: #000000;
-  width: 100%;
 }
 .back2 {
-  position: absolute;
   background-color: #f5f5f7;
-  top: 512px;
 }
 .back3 {
-  position: absolute;
   background-color: #f5f5f7;
-  top: 1024px;
 }
 .back-image1 {
   background-image: url("./16-pro.jpg");
+  align-items: end;
+  justify-content: center;
 }
 .back-image2 {
   background-image: url("./16.jpg");
+  justify-content: center;
 }
 .back-image3 {
   background-image: url("./pad.jpg");
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 .back-image {
   display: flex;
@@ -190,17 +191,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  justify-content: center;
-  align-content: center;
 }
 
 .frame-24-1 {
   display: flex;
   flex-direction: column;
-  position: absolute;
   height: 114px;
   gap: 16px;
-  top: 350px;
 }
 .text {
   display: flex;
@@ -248,7 +245,6 @@ header {
   opacity: 1;
   gap: 10px;
   border-radius: 999px;
-  display: flex;
   font-family: Inter;
   font-weight: 400;
   font-style: Regular;
@@ -281,11 +277,9 @@ header {
 .frame-24-2 {
   display: flex;
   flex-direction: column;
-  position: absolute;
   height: 114;
   opacity: 1;
   gap: 16px;
-  top: 36px;
 }
 .buy-2 {
   border-color: #ffffff;
@@ -296,8 +290,6 @@ header {
   color: #000000;
 }
 .gradient-hello {
-  position: absolute;
-  top: 446px;
   font-family: Inter;
   font-weight: 500;
   font-style: Medium;
@@ -310,17 +302,17 @@ header {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  display: flex;
+  height: 30px;
 }
 .frame-24-3 {
   display: flex;
   flex-direction: column;
-  position: absolute;
   align-items: center;
   width: 390;
   height: 133.86045837402344;
   opacity: 1;
   gap: 16px;
-  top: 36px;
 }
 .air-img {
   display: flex;

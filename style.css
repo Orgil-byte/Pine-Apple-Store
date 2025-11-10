@@ -66,7 +66,7 @@ header {
 }
 
 .image1 {
-  background-image: url("./apple-logo.png");
+  background-image: url("./apple-logo.svg");
   width: 16px;
   height: 19px;
 }
@@ -898,5 +898,272 @@ header {
     gap: 12px;
     padding-left: 12px;
     padding-right: 12px;
+  }
+}
+/*PHONE SCROLL*/
+.list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  height: 495px;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.frame-44 {
+  display: flex;
+  gap: 16px;
+  height: 495px;
+  width: fit-content;
+  flex-wrap: nowrap;
+}
+.link {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 495px;
+  width: 274px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+.link1 {
+  background-image: url("./Link-1.png");
+}
+.link2 {
+  background-image: url("./Link-2.png");
+}
+.link3 {
+  background-image: url("./Link-3.png");
+}
+.link4 {
+  background-image: url("./Link-4.png");
+}
+.link5 {
+  background-image: url("./Link-5.png");
+}
+.link6 {
+  background-image: url("./Link-6.png");
+}
+.link7 {
+  background-image: url("./Link-7.png");
+}
+.link8 {
+  background-image: url("./Link-8.png");
+}
+
+.tablist {
+  display: flex;
+  height: 26px;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+.dots {
+  background-color: rgba(0, 0, 0, 0.42);
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+.dots:hover {
+  background-color: #000000;
+}
+/* PAD SCROLL*/
+.scroll {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+  height: 368px;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  display: none;
+}
+.frame-38 {
+  display: flex;
+  gap: 16px;
+  height: 368px;
+  width: fit-content;
+  flex-wrap: nowrap;
+}
+.pad-scroll {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 368px;
+  width: 689px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+.pad-scroll1 {
+  background-image: url("./pad-scroll1.jpg");
+}
+.pad-scroll2 {
+  background-image: url("./pad-scroll2.jpg");
+}
+.pad-scroll3 {
+  background-image: url("./pad-scroll3.jpg");
+}
+.pad-scroll4 {
+  background-image: url("./pad-scroll4.jpg");
+}
+.pad-scroll5 {
+  background-image: url("./pad-scroll5.jpg");
+}
+.pad-scroll6 {
+  background-image: url("./pad-scroll6.jpg");
+}
+.pad-scroll7 {
+  background-image: url("./pad-scroll7.jpg");
+}
+.pad-scroll8 {
+  background-image: url("./pad-scroll8.jpg");
+}
+.pad-scroll9 {
+  background-image: url("./pad-scroll9.jpg");
+}
+.pad-scroll10 {
+  background-image: url("./pad-scroll10.jpg");
+}
+.pad-scroll2-text {
+  display: flex;
+  align-items: end;
+  height: 341px;
+  margin-left: 30px;
+  gap: 20px;
+}
+.pad-drama1 {
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  vertical-align: middle;
+  width: 401px;
+  height: 40px;
+}
+.pad-drama2 {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+}
+.pad-stream {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  color: #000000;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  vertical-align: middle;
+  width: 108;
+  height: 36;
+  top: 305px;
+  left: 30px;
+  border-radius: 980px;
+}
+/*DESKTOP SCROLL*/
+.scroll-desk {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+  height: 668px;
+  overflow: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  display: none;
+}
+.frame-15 {
+  display: flex;
+  gap: 16px;
+  height: 668px;
+  width: fit-content;
+  flex-wrap: nowrap;
+}
+.desk-scroll {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 668px;
+  width: 1250px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+.desk-scroll1 {
+  background-image: url("./desk-scroll1.jpg");
+}
+.desk-scroll2 {
+  background-image: url("./desk-scroll2.jpg");
+}
+.desk-scroll3 {
+  background-image: url("./desk-scroll3.jpg");
+}
+.desk-scroll2-text {
+  display: flex;
+  align-items: end;
+  height: 610px;
+  margin-left: 70px;
+  gap: 20px;
+}
+.desk-drama1 {
+  color: #ffffff;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  vertical-align: middle;
+  width: 401px;
+  height: 40px;
+}
+.desk-drama2 {
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 17px;
+}
+.desk-stream {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f7;
+  color: #000000;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 17px;
+  vertical-align: middle;
+  width: 133;
+  height: 44;
+  top: 305px;
+  left: 30px;
+  border-radius: 980px;
+}
+@media (min-width: 768px) {
+  .list {
+    display: none;
+  }
+  .scroll {
+    display: block;
+  }
+}
+@media (min-width: 1920px) {
+  .list {
+    display: none;
+  }
+  .scroll {
+    display: none;
+  }
+  .scroll-desk {
+    display: block;
   }
 }

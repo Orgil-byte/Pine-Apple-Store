@@ -28,6 +28,7 @@ header {
   width: 100%;
   height: 48px;
   filter: blur(20);
+  position: fixed;
 }
 .overlay {
   display: flex;
@@ -36,7 +37,6 @@ header {
   height: 48px;
   width: 100%;
   background-color: rgba(245, 245, 247, 0.8);
-  position: relative;
 }
 .top-text {
   display: none;
@@ -67,18 +67,18 @@ header {
 
 .image1 {
   background-image: url("./apple-logo.svg");
-  width: 16px;
-  height: 19px;
+  width: 20px;
+  height: 24px;
 }
 .image2 {
-  background-image: url("./search-bar.png");
-  width: 16px;
-  height: 16px;
+  background-image: url("./search-bar.svg");
+  width: 18px;
+  height: 18px;
 }
 .image3 {
-  background-image: url("./shop-bar.png");
-  width: 15.12px;
-  height: 17.6px;
+  background-image: url("./icons8-shop-50.png");
+  width: 20px;
+  height: 20px;
 }
 
 .sticks {
@@ -104,14 +104,17 @@ header {
   .top-text {
     display: block;
   }
+  .navigation {
+    position: fixed;
+  }
 }
 /* Container*/
 .nav-container {
   width: 100%;
-  height: 73px;
+  height: 121px;
   background-color: #ffffff;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   text-align: center;
   gap: 24px;
@@ -126,7 +129,7 @@ header {
 }
 @media (min-width: 768px) {
   .nav-container {
-    height: 48px;
+    height: 108px;
   }
   .nav-text {
     width: 444px;
@@ -192,7 +195,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .frame-24-1 {
   font-family: Inter, sans-serif;
   display: flex;
@@ -582,8 +584,8 @@ header {
   vertical-align: middle;
 }
 .logo-size {
-  width: 22px;
-  height: 27px;
+  width: 30px;
+  height: 35px;
 }
 .frame-26 {
   display: flex;
@@ -847,8 +849,8 @@ header {
   margin-top: 58.42px;
 }
 .logo-size-2 {
-  width: 26px;
-  height: 32px;
+  width: 35px;
+  height: 40px;
 }
 .trade2 {
   font-size: 32px;
@@ -872,9 +874,10 @@ header {
   letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
+  margin-top: 5px;
 }
 .get-up {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
@@ -955,7 +958,8 @@ header {
 
 .tablist {
   display: flex;
-  height: 26px;
+  height: 38px;
+  margin-top: 5px;
   gap: 15px;
   width: 100%;
   justify-content: center;
@@ -1103,15 +1107,17 @@ header {
 }
 .desk-scroll2 {
   background-image: url("./desk-scroll2.jpg");
+  display: flex;
+  align-items: end;
 }
 .desk-scroll3 {
   background-image: url("./desk-scroll3.jpg");
 }
 .desk-scroll2-text {
   display: flex;
-  align-items: end;
-  height: 610px;
+  height: 44px;
   margin-left: 70px;
+  margin-bottom: 58px;
   gap: 20px;
 }
 .desk-drama1 {
@@ -1120,6 +1126,8 @@ header {
   font-weight: 400;
   font-size: 17px;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
   width: 401px;
   height: 40px;
 }
@@ -1165,5 +1173,88 @@ header {
   }
   .scroll-desk {
     display: block;
+  }
+}
+.apple-service {
+  display: flex;
+  width: 100%;
+  height: 160px;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.apple-gallery {
+  display: flex;
+  gap: 4px;
+  padding-right: 4px;
+  height: 160px;
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: spin 5s infinite linear;
+}
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+.gallery {
+  flex: 0 0;
+  height: 160px;
+  width: 238px;
+  flex-shrink: 0;
+}
+.image-gall {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 134px;
+  width: 238px;
+}
+.gallery1 {
+  background-image: url("./gallery1.png");
+}
+.gallery2 {
+  background-image: url("./gallery2.jpg");
+}
+.gallery-font {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+}
+.button-gallery-width {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.button-gallery {
+  width: 24;
+  height: 24;
+  border-radius: 12px;
+  background-color: #d2d2d7;
+  margin-right: 16px;
+}
+@media (min-width: 768px) {
+  .apple-service {
+    display: none;
+  }
+  .button-gallery-width {
+    display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .apple-service {
+    display: none;
+  }
+  .button-gallery-width {
+    display: none;
   }
 }

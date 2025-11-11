@@ -66,17 +66,17 @@ header {
 }
 
 .image1 {
-  background-image: url("./apple-logo.svg");
+  background-image: url("images/apple-logo.svg");
   width: 20px;
   height: 24px;
 }
 .image2 {
-  background-image: url("./search-bar.svg");
+  background-image: url("images/search-bar.svg");
   width: 18px;
   height: 18px;
 }
 .image3 {
-  background-image: url("./icons8-shop-50.png");
+  background-image: url("images/icons8-shop-50.png");
   width: 20px;
   height: 20px;
 }
@@ -173,16 +173,16 @@ header {
   background-color: #f5f5f7;
 }
 .back-image1 {
-  background-image: url("./16-pro.jpg");
+  background-image: url("images/16-pro.jpg");
   align-items: end;
   justify-content: center;
 }
 .back-image2 {
-  background-image: url("./16.jpg");
+  background-image: url("images/16.jpg");
   justify-content: center;
 }
 .back-image3 {
-  background-image: url("./pad.jpg");
+  background-image: url("images/pad.jpg");
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -331,7 +331,7 @@ header {
   gap: 8px;
 }
 .air-img1 {
-  background-image: url("./pad-air.png");
+  background-image: url("pad-images/pad-air.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 180;
@@ -353,7 +353,7 @@ header {
   display: none;
 }
 .back-image-1920 {
-  background-image: url("./1920-magic.jpg");
+  background-image: url("desk-images/1920-magic.jpg");
   align-items: end;
   justify-content: center;
 }
@@ -395,14 +395,14 @@ header {
     height: 650px;
   }
   .back-image1 {
-    background-image: url("./768pro.jpg");
+    background-image: url("pad-images/768pro.jpg");
     align-items: start;
   }
   .back-image2 {
-    background-image: url("./768-16.jpg");
+    background-image: url("pad-images/768-16.jpg");
   }
   .back-image3 {
-    background-image: url("./768pad.jpg");
+    background-image: url("pad-images/768pad.jpg");
   }
   .frame-24-1,
   .frame-24-2,
@@ -451,11 +451,11 @@ header {
     height: 692px;
   }
   .back-image1 {
-    background-image: url("1920-pro.jpg");
+    background-image: url("desk-images/1920-pro.jpg");
     align-items: start;
   }
   .back-image2 {
-    background-image: url("./1920-16.jpg");
+    background-image: url("desk-images/1920-16.jpg");
   }
   .frame-24-1,
   .frame-24-2 {
@@ -506,29 +506,29 @@ header {
   background-color: #f5f5f7;
 }
 .back-image4 {
-  background-image: url("./background-1.jpg");
+  background-image: url("images/background-1.jpg");
   justify-content: center;
   align-items: end;
 }
 .back-image5 {
-  background-image: url("./watch.jpg");
+  background-image: url("images/watch.jpg");
   justify-content: center;
 }
 .back-image6 {
-  background-image: url("./macbook-air.jpg");
+  background-image: url("images/macbook-air.jpg");
   justify-content: center;
 }
 .back-image7 {
-  background-image: url("./emoji.jpg");
+  background-image: url("images/emoji.jpg");
   justify-content: center;
 }
 .back-image8 {
-  background-image: url("./4phone.jpg");
+  background-image: url("images/4phone.jpg");
   justify-content: center;
   align-items: end;
 }
 .back-image9 {
-  background-image: url("./trade-in.jpg");
+  background-image: url("images/trade-in.jpg");
   justify-content: center;
 }
 .frame-24-4 {
@@ -752,32 +752,32 @@ header {
   background-color: #f5f5f7;
 }
 .back-image3-1 {
-  background-image: url("./1920pad.jpg");
+  background-image: url("desk-images/1920pad.jpg");
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 .back-image10 {
-  background-image: url("./1920airpod.jpg");
+  background-image: url("desk-images/1920airpod.jpg");
   align-items: end;
 }
 .back-image11 {
-  background-image: url("./1920watch.jpg");
+  background-image: url("desk-images/1920watch.jpg");
 }
 .back-image12 {
-  background-image: url("./1920mac-air.jpg");
+  background-image: url("desk-images/1920mac-air.jpg");
 }
 .back-image13 {
-  background-image: url("./1920trade.jpg");
+  background-image: url("desk-images/1920trade.jpg");
 }
 .back-image14 {
-  background-image: url("./1920card.jpg");
+  background-image: url("desk-images/1920card.jpg");
 }
 .frame-24-3-2 {
   margin-top: 58px;
 }
 .air-img2 {
-  background-image: url("./1920airpad.png");
+  background-image: url("desk-images/1920airpad.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 33px;
@@ -932,28 +932,28 @@ header {
   scroll-snap-stop: always;
 }
 .link1 {
-  background-image: url("./Link-1.png");
+  background-image: url("images/Link-1.png");
 }
 .link2 {
-  background-image: url("./Link-2.png");
+  background-image: url("images/Link-2.png");
 }
 .link3 {
-  background-image: url("./Link-3.png");
+  background-image: url("images/Link-3.png");
 }
 .link4 {
-  background-image: url("./Link-4.png");
+  background-image: url("images/Link-4.png");
 }
 .link5 {
-  background-image: url("./Link-5.png");
+  background-image: url("images/Link-5.png");
 }
 .link6 {
-  background-image: url("./Link-6.png");
+  background-image: url("images/Link-6.png");
 }
 .link7 {
-  background-image: url("./Link-7.png");
+  background-image: url("images/Link-7.png");
 }
 .link8 {
-  background-image: url("./Link-8.png");
+  background-image: url("images/Link-8.png");
 }
 
 .tablist {
@@ -1003,34 +1003,34 @@ header {
   scroll-snap-stop: always;
 }
 .pad-scroll1 {
-  background-image: url("./pad-scroll1.jpg");
+  background-image: url("pad-images/pad-scroll1.jpg");
 }
 .pad-scroll2 {
-  background-image: url("./pad-scroll2.jpg");
+  background-image: url("pad-images/pad-scroll2.jpg");
 }
 .pad-scroll3 {
-  background-image: url("./pad-scroll3.jpg");
+  background-image: url("pad-images/pad-scroll3.jpg");
 }
 .pad-scroll4 {
-  background-image: url("./pad-scroll4.jpg");
+  background-image: url("pad-images/pad-scroll4.jpg");
 }
 .pad-scroll5 {
-  background-image: url("./pad-scroll5.jpg");
+  background-image: url("pad-images/pad-scroll5.jpg");
 }
 .pad-scroll6 {
-  background-image: url("./pad-scroll6.jpg");
+  background-image: url("pad-images/pad-scroll6.jpg");
 }
 .pad-scroll7 {
-  background-image: url("./pad-scroll7.jpg");
+  background-image: url("pad-images/pad-scroll7.jpg");
 }
 .pad-scroll8 {
-  background-image: url("./pad-scroll8.jpg");
+  background-image: url("pad-images/pad-scroll8.jpg");
 }
 .pad-scroll9 {
-  background-image: url("./pad-scroll9.jpg");
+  background-image: url("pad-images/pad-scroll9.jpg");
 }
 .pad-scroll10 {
-  background-image: url("./pad-scroll10.jpg");
+  background-image: url("pad-images/pad-scroll10.jpg");
 }
 .pad-scroll2-text {
   display: flex;
@@ -1103,15 +1103,15 @@ header {
   scroll-snap-stop: always;
 }
 .desk-scroll1 {
-  background-image: url("./desk-scroll1.jpg");
+  background-image: url("desk-images/desk-scroll1.jpg");
 }
 .desk-scroll2 {
-  background-image: url("./desk-scroll2.jpg");
+  background-image: url("desk-images/desk-scroll2.jpg");
   display: flex;
   align-items: end;
 }
 .desk-scroll3 {
-  background-image: url("./desk-scroll3.jpg");
+  background-image: url("desk-images/desk-scroll3.jpg");
 }
 .desk-scroll2-text {
   display: flex;
@@ -1190,8 +1190,9 @@ header {
   height: 160px;
   width: fit-content;
   flex-wrap: nowrap;
-  animation: spin 5s infinite linear;
+  animation: spin 10s infinite linear;
 }
+
 @keyframes spin {
   from {
     translate: 0;
@@ -1214,10 +1215,30 @@ header {
   width: 238px;
 }
 .gallery1 {
-  background-image: url("./gallery1.png");
+  height: 134px;
+  width: 238px;
+  background-color: #6529cf;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.gallery-image1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images/gallery-image1.jpg");
+  width: 114px;
+  height: 114px;
+  margin-bottom: 10px;
+}
+.margin-0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-right: 10px;
 }
 .gallery2 {
-  background-image: url("./gallery2.jpg");
+  background-image: url("images/gallery2.jpg");
 }
 .gallery-font {
   font-family: Inter;
@@ -1236,25 +1257,30 @@ header {
   align-items: center;
 }
 .button-gallery {
-  width: 24;
-  height: 24;
-  border-radius: 12px;
+  width: 36;
+  height: 36;
+  border-radius: 999px;
   background-color: #d2d2d7;
   margin-right: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.button-gallery2 {
+  width: 15px;
+  height: 15px;
+  background-image: url("images/—Pngtree—black\ vector\ play\ button\ icon_4231897.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 9.5px;
 }
 @media (min-width: 768px) {
   .apple-service {
     display: none;
   }
-  .button-gallery-width {
-    display: none;
-  }
 }
 @media (min-width: 1920px) {
   .apple-service {
-    display: none;
-  }
-  .button-gallery-width {
     display: none;
   }
 }
@@ -1273,7 +1299,7 @@ header {
   height: 194px;
   width: fit-content;
   flex-wrap: nowrap;
-  animation: spin 5s infinite linear;
+  animation: spin 14s infinite linear;
 }
 @keyframes spin {
   from {
@@ -1334,6 +1360,146 @@ header {
 }
 @media (min-width: 1920px) {
   .apple-service-pad {
+    display: none;
+  }
+}
+.apple-service-desk {
+  display: flex;
+  width: 100%;
+  height: 236px;
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+}
+.apple-gallery-desk {
+  display: flex;
+  gap: 16px;
+  padding-right: 16px;
+  height: 236px;
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: spin 17s infinite linear;
+}
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+.gallery-desk {
+  flex: 0 0;
+  height: 236px;
+  width: 417px;
+  flex-shrink: 0;
+}
+.gallery-dsk-image {
+  width: 417px;
+  height: 236px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery-dsk-back1 {
+  background-image: url("desk-images/dsk-gallery1.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.gallery-dsk-back2 {
+  background-color: #1b2632;
+  width: 417px;
+  height: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.gallery-dsk-image2 {
+  background-image: url("desk-images/dsk-gallery2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 196px;
+  height: 196px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.gallery-dsk-back3 {
+  background-image: url("desk-images/dsk-gallery3.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.gallery-dsk-back4 {
+  background-image: url("desk-images/dsk-gallery4.jpg");
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.gallery-dsk-back5 {
+  background-color: #ebb799;
+  width: 417px;
+  height: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.gallery-dsk-image5 {
+  background-image: url("desk-images/dsk-gallery5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 196px;
+  height: 196px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.margin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.desk-gallery-font {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: Semi Bold;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.logo-size3 {
+  width: 24px;
+  height: 27px;
+}
+.dsk-text {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 14px;
+  vertical-align: middle;
+  color: #ffffff;
+  margin-bottom: 18px;
+  margin-left: 15px;
+  margin-right: 100px;
+}
+.khaled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.r-b {
+  width: 62px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 14px;
+  vertical-align: middle;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+@media (max-width: 1920px) {
+  .apple-service-desk {
     display: none;
   }
 }

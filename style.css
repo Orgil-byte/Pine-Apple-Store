@@ -494,6 +494,7 @@ header {
     display: none;
   }
 }
+
 /*FRAME-27, background*/
 .frame-27 {
   display: flex;
@@ -913,6 +914,7 @@ header {
   overflow: scroll;
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 .frame-44 {
   display: flex;
@@ -956,7 +958,23 @@ header {
   background-image: url("images/Link-8.png");
 }
 
-.tablist {
+.tablist1 {
+  display: flex;
+  height: 38px;
+  margin-top: 5px;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+.tablist2 {
+  display: flex;
+  height: 38px;
+  margin-top: 5px;
+  gap: 15px;
+  width: 100%;
+  justify-content: center;
+}
+.tablist3 {
   display: flex;
   height: 38px;
   margin-top: 5px;
@@ -969,9 +987,33 @@ header {
   width: 8px;
   height: 8px;
   border-radius: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 .dots:hover {
-  background-color: #000000;
+  transform: scale(1.5);
+  background-color: black;
+  opacity: 80%;
+}
+@media (min-width: 768px) {
+  .tablist1 {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .tablist2 {
+    display: none;
+  }
+}
+@media (min-width: 1920px) {
+  .tablist2 {
+    display: none;
+  }
+}
+@media (max-width: 1920px) {
+  .tablist3 {
+    display: none;
+  }
 }
 /* PAD SCROLL*/
 .scroll {
@@ -984,6 +1026,7 @@ header {
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
   display: none;
+  scroll-behavior: smooth;
 }
 .frame-38 {
   display: flex;
@@ -1055,6 +1098,7 @@ header {
   font-style: Bold;
   font-size: 17px;
 }
+
 .pad-stream {
   display: flex;
   text-align: center;
@@ -1084,6 +1128,7 @@ header {
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
   display: none;
+  scroll-behavior: smooth;
 }
 .frame-15 {
   display: flex;

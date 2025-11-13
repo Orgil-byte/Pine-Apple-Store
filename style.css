@@ -19,6 +19,12 @@ body {
   justify-content: center;
   gap: 12px;
 }
+
+.no-underline {
+  text-decoration: none;
+  color: black;
+  text-transform: none;
+}
 /* Nav - Global*/
 header {
   width: 100%;
